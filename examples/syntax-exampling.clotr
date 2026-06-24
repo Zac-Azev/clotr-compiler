@@ -1,0 +1,28 @@
+hobbit count is 0 .
+dwarf value is 10.0 .
+elf letter is 'X' .
+
+hobbit result is 10 plus 2 multiply 3 minus 1 divide 5 remainder 2 .
+hobbit parenResult is ( 5 plus 5 ) multiply 2 .
+
+quest (value greater_or_equal 5.0) {
+  value is value minus 2.5 .
+} fulfilled unless {
+  value is value plus 1.5 .
+}
+
+seek (count less 5) {
+  count is count plus 1 .
+}
+
+quest (count equal 5) {
+  letter is 'Y' .
+} fulfilled unless {
+  letter is 'Z' .
+}
+
+quest (letter not_equal 'Y') {
+  count is 100 .
+} fulfilled unless {
+  count is 0 .
+}
