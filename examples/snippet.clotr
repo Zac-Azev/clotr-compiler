@@ -1,0 +1,9 @@
+#editor-note 4 [ ]
+hobbit a is 15 .
+dwarf b is 3.0 .
+dwarf result is [ignore me] a divide b .
+quest (result equal 5.0) {
+  a is 999 .
+} fulfilled unless {
+  a is 0 .
+}

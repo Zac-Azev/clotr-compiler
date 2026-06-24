@@ -1,0 +1,1 @@
+# Clotr tests package init

@@ -1,0 +1,6 @@
+#editor-notes 4 [ ]
+#editor-note 5 , :
+#editor-note 6 you like
+hobbit myVar is [this is a comment] 100 .
+dwarf anotherVar is 5.5, another comment but made in a different manner: .
+you could even do something like anotherVar is 3.
